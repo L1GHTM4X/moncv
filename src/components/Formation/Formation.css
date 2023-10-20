@@ -1,0 +1,45 @@
+/* Formation.css */
+
+.formation {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    margin-left: 15%;
+  }
+  
+  .formation h1 {
+    font-size: 50px;
+    color: #bdcffa;
+  }
+
+  .formation-content {
+    padding: 20px; 
+    width: 100%; 
+    max-width: 800px; 
+    text-align: center; 
+    margin-top: 20px; 
+    background:linear-gradient(135deg, #032f5a, #004981);
+    border: 2px solid #303747; 
+    border-radius: 10px; 
+  }
+  
+  .formation ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .formation li {
+    font-size: 18px;
+    color: #bdcffa;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .formation li p {
+    margin: 0;
+  }

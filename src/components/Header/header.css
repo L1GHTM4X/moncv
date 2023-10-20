@@ -1,0 +1,90 @@
+/* header.css */
+
+/* conteneur du header */
+header {
+  background-color: #303747;
+  color: #fff;
+  padding: 1rem;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ /* nom (Maxime Leclerc) */
+  .header-name {
+    font-size: 55px; 
+    font-weight: bold;
+    margin: 25px;
+  }
+  
+  /* liste de navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* éléments de la liste de navigation */
+  nav ul li {
+    margin: 50px 0;
+  }
+  
+  /* liens de navigation */
+  nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+    text-align: center; 
+    font-size: 22px;
+  }
+  
+  /* liens de navigation au survol */
+  nav ul li a:hover {
+    color: #0060aa;
+  }
+  
+  /* conteneur de la liste de navigation */
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+  }
+
+  /* icônes */
+  .social-icons {
+    margin: 20px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #0077B5;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffffff;
+  }
+  
+  /* icône GitHub */
+  .social-icons a:first-child {
+    color: #ffffff;
+  }
+
+  /* lien actif */
+.active-link {
+  color: #0185eb;
+}

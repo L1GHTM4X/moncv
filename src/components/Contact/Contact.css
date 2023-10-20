@@ -1,0 +1,84 @@
+/* Contact.css */
+.contact {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    margin-left: 15%;
+  }
+
+  .contact-content {
+    padding: 20px; 
+    width: 100%; 
+    max-width: 800px; 
+    text-align: center; 
+    margin-top: 20px; 
+    background:linear-gradient(135deg, #032f5a, #004981);
+    border: 2px solid #303747; 
+    border-radius: 10px; 
+  }
+  
+  .contact h1 {
+    font-size: 50px;
+    color: #bdcffa;
+  }
+  
+  .contact form {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 30px;
+    margin: 30px auto;
+  }
+  
+  .contact .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .contact label {
+    font-size: 18px;
+    color: #bdcffa;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .contact button {
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .contact button:hover {
+    background-color: #005C8E;
+  }
+  
+  /* informations de contact */
+  .contact-info {
+    text-align: center;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    color: #bdcffa;
+    line-height: 1.5;
+  }
+
+  
